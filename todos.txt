@@ -1,0 +1,14 @@
+1 yarn init 项目初始化
+2 yarn add --save-dev(-D) webpack webpack-cli 安装webpack
+3 yarn build == npm run build
+4 vue-loader
+
+连接远程仓库
+1 在github新建仓库
+2 在本地create a new repository
+   echo "# Atowp-demo" >> README.md（输出文件）
+   git init（初始化）
+   git commit -m "first commit"（第一次提交）
+   git branch -M main（改名）
+   git remote add origin git@github.com: Atowp/Atowp-demo.git（连接远程仓库）
+   git push -u origin main（推送到指定远程仓库）
